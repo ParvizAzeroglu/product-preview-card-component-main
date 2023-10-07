@@ -40,7 +40,7 @@ function Card({ img }) {
 function CardImage({ img }) {
   return (
     <div className="image-container">
-      <img src={`../images/${img}`} alt="Parfume Images" />
+      <img src={`./${img}`} alt="Parfume Images" />
     </div>
   );
 }
@@ -59,7 +59,7 @@ function CardContent() {
       </p>
       <div className="button-container">
         <button>
-          <img src="../images/icon-cart.svg" alt="" /> Add to Cart
+          <img src="./icon-cart.svg" alt="icon cart" /> Add to Cart
         </button>
       </div>
     </div>
